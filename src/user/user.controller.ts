@@ -14,7 +14,7 @@ export class UsersController {
 
   @Get('/')
   getHtml(@Res() res: Response): void {
-    res.sendFile(path.join(__dirname, '/../public/index.html'));
+    res.sendFile(path.join(__dirname, '/../../public/index.html'));
   }
 
   @Post('cadastrar')
