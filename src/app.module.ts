@@ -10,7 +10,7 @@ import { UserModule } from './user/user.module';
       type: 'mysql',
       host: '200.98.161.31',
       port: 3306,
-      username: 'marcelo
+      username: 'marcelo',
       password: '1234',
       database: 'api',
       entities: [UserEntity],
